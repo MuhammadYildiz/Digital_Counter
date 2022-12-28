@@ -5,11 +5,14 @@ const item4 = document.querySelector('.item4')
 const item5 = document.querySelector('.item5')
 const item6 = document.querySelector('.item6')
 const item7 = document.querySelector('.item7')
+/* const numberout = document.querySelector('.numberout') */
 let number = 1;
+
 function random (){
     if(number >9){
         number = 0;
     }
+    /* numberout.innerHTML = number; */
     if(number== 0){
         item1.style.display= 'block'
         item2.style.display= 'none'
